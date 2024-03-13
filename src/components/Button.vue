@@ -1,5 +1,5 @@
 <template>
-    <button @click="onClick()":style="{background:color}" class="btn">{{ task }}</button>
+    <button @click="onClick()" :style="{background:color}" class="btn">{{ task }}</button>
 </template>
 
 <script>
